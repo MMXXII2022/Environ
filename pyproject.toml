@@ -1,0 +1,36 @@
+# Build System = hatchling
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+# Project
+[project]
+name = "Environ-Py"
+version = "0.0.2"
+authors = [
+  {name="Rayaan khan"},
+]
+description = "A Package made for you to make your project even BETTER!"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = ["PyColorTools==0.0.2"]
+
+
+
+
+
+
+# Urls
+[project.urls]
+"Homepage" = "https://github.com/MMXXII2022/Environ"
+"Bug Tracker" = "https://github.com/MMXXII2022/Environ/issues/choose"
+"Examples" = "https://github.com/MMXXII2022/Environ/tree/main/examples"
+"Guide" = "https://github.com/MMXXII20222/Environ/wiki/guide"
+
+
+
