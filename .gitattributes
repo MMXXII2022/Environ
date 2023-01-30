@@ -1,0 +1,3 @@
+# set end-of-line conversion for text files
+*.txt eol=\n
+
